@@ -170,3 +170,44 @@ max-width: 316px;
     display: flex;
     gap: 74px;  
 }
+
+@media screen and (max-width: 550px){
+    .flex,.face-flex{
+        flex-direction: column;
+    }
+    .container{
+        max-width: 550px;
+    }
+    .header{
+        gap: 30px;
+    }
+    .header-nav{
+        display: none;
+    }
+    .main{
+        text-align: center;
+    }
+    .main-title{
+        font-size: 48px;
+      line-height: 55px;
+    }
+    .main-text{
+        margin: 18px auto;
+    }
+    .main-img{
+        margin-top: 40px;
+    }
+    .face{
+        gap: 30px;
+        margin: 60px auto;
+    }
+    .face-title{
+        text-align: center;
+    }
+    .footer nav{
+        display: none; 
+    }
+    .commerc-all{
+        margin-bottom: 40px;
+    }
+}
