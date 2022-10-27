@@ -171,12 +171,12 @@ max-width: 316px;
     gap: 74px;  
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 500px){
     .flex,.face-flex{
         flex-direction: column;
     }
     .container{
-        max-width: 550px;
+        max-width: 500px;
     }
     .header{
         gap: 30px;
